@@ -1,14 +1,12 @@
-*/ 
-	Loading data from the  source files crm and erp to the bronze schema tables
+/* 
+	Purpose: Loading data from the source files crm and erp to the bronze schema tables
 
---Used procedure to automate truncating and inserting new data from the csv file.
-
-Parameters: The procedure does not return any values .
+Used procedure to automate truncating and inserting new data from the csv file.
+Parameters: The procedure does not return any values. .
 
 To use the procedure:	
 exec  bronze.load_bronze
-/*
-
+*/
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
