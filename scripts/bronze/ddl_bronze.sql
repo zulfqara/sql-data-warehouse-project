@@ -3,7 +3,7 @@
     Create tables for the bronze-layer.
 
 Description:
-    - To store the loaded data from the csv files.
+    - Raw ingestion for the CRM and ERP csv files.
     - Used as a source for silver layer to transform and clean the raw data*/
 --==========================================
 
