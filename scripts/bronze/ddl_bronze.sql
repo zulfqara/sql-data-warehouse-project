@@ -1,10 +1,10 @@
 --==========================================
 /*Purpose:
-    Create tables for the Silver-layer.
+    Create tables for the bronze-layer.
 
 Description:
-    - Stores transformed and cleaned data from the bronze layer.
-    - Used as a source for Gold layer analytics*/
+    - To store the loaded data from the csv files.
+    - Used as a source for silver layer to transform and clean the raw data*/
 --==========================================
 
 create table bronze.crm_cust_info (
