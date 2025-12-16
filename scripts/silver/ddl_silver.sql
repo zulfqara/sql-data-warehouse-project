@@ -1,6 +1,10 @@
 --==========================================
--- Layer   : silver
--- Purpose : Raw ingestion tables (CRM & ERP)
+/*Purpose:
+    Create tables for the Silver-layer.
+
+Description:
+    - Stores transformed and cleaned data from the bronze layer.
+    - Used as a source for Gold layer analytics*/
 --==========================================
 
 create table silver.crm_cust_info (
