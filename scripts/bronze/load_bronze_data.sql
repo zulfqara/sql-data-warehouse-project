@@ -1,7 +1,13 @@
---Now, starting ingesting data into the ERP and CRM tables.
+*/ 
+	Loading data from the  source files crm and erp to the bronze schema tables
 
---Used procedure to avoid repitition.
---Used truncate to delete the existing data
+--Used procedure to automate truncating and inserting new data from the csv file.
+
+Parameters: The procedure does not return any values .
+
+To use the procedure:	
+exec  bronze.load_bronze
+/*
 
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
@@ -101,5 +107,5 @@ PRINT 'Error Message' + CAST( ERROR_STATE() AS NVARCHAR);
 END CATCH
 END
 
-exec  bronze.load_bronze
+
 
