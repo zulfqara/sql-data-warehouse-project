@@ -1,8 +1,8 @@
 # sql-data-warehouse-project
 Modern Data Warehouse with SQL Server (Learning Project)
  Project Overview:
-  This is a learning-focused project aimed at understanding how to design and build a modern data warehouse using SQL        Server.
-  The project covers core data warehousing concepts, including ETL processes, data modeling, and analytics, using hands-     on SQL development.
+  This is a learning-focused project aimed and was a part of the SQL course on Udemy with "Data with Baraa" at understanding how to design and build a modern data warehouse using SQL Server.
+  The project covers core data warehousing concepts, including ETL processes, data modeling, and analytics, using hands-on SQL development.
 
 The goal is to gain practical experience with real-world data warehouse architectures rather than to build a production-ready system.
 
